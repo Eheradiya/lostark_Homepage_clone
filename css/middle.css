@@ -1,0 +1,14 @@
+.main-top-box {
+  height: 1000px;
+  background-color: #fff;
+  position: relative;
+}
+
+.content--main .main-top__bg {
+  background: url(../images/MainBanner.jpg) 50% 0 no-repeat;
+  width: 2560px;
+  height: 1000px;
+  margin-left: -1280px;
+  position: absolute;
+  left: 50%;
+}

@@ -1,0 +1,19 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(middle.css);
+
+.lostark-pc {
+  width: 100%;
+  min-width: 1340px;
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  margin: 0px;
+  padding: 0px;
+}

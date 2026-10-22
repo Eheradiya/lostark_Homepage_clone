@@ -1,0 +1,121 @@
+@import url(reset.css);
+
+.wrapper {
+  width: 100%;
+}
+a,
+button {
+  cursor: pointer;
+}
+
+.gnb-stove-wrapper-outter {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.gnb-stove-wrapper {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.gnb-stove-wrapper #stove-logo {
+  font-size: 24px;
+}
+
+.gnb-stove-menu-body {
+  display: flex;
+  flex: 110%;
+  overflow: hidden;
+}
+
+.gnb-right-menu-body {
+  display: flex;
+  flex-shrink: 0;
+  column-gap: 4px;
+}
+
+#gnb-total-menu-button,
+#gnb-game-menu-button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 0.5);
+  border-radius: 99990px !important;
+  color: rgb(255, 255, 255, var(--tw-text-opacity));
+  display: inline-flex;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: -0.25px;
+  min-height: auto;
+  min-width: auto;
+  width: 40px;
+}
+
+.gnb-game-menu-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.gnb-user-menu {
+  display: flex;
+  column-gap: 8px;
+  padding-left: 16px;
+  white-space: nowrap;
+}
+
+.gnb-user-signup-btn {
+  background-color: #f5f5f5;
+  border-radius: 99990px !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f5f5f5;
+
+  color: #333;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  letter-spacing: -0.25px;
+  min-height: 32px;
+  min-width: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.gnb-user-signup-btn-text {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 5px 0;
+}
+
+.gnb-user-login-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1f1f1f;
+  border-color: transparent !important;
+  border-radius: 99990px !important;
+  border-style: solid;
+  border-width: 2px;
+
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: -0.25px;
+
+  min-height: 32px;
+  min-width: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.gnb-user-login-btn-text {
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
