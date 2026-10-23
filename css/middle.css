@@ -12,3 +12,88 @@
   position: absolute;
   left: 50%;
 }
+
+.content--main .issue-button__link {
+  width: 175px;
+  height: 48px;
+  margin-left: -87px;
+  top: 317px;
+  font-size: 0;
+  position: absolute;
+  left: 50%;
+
+  color: inherit;
+  background-color: transparent;
+}
+
+.content--main .main-banner,
+.content--main .bm-banner {
+  top: 396px;
+}
+
+.content--main .main-banner {
+  width: 890px;
+  height: 508px;
+  margin-left: -630px;
+  position: absolute;
+  left: 50%;
+}
+
+.content--main .main-banner h2 {
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  z-index: 1;
+  -o-transition-property: transform;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  transition-property: transform;
+  display: flex;
+  position: relative;
+}
+.content--main .main-banner .swiper-slide {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.swiper-slide {
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  transition-property: transform;
+  position: relative;
+}
+
+.content--main .main-banner .swiper-slide a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
