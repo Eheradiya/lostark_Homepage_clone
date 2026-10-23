@@ -122,3 +122,70 @@
   opacity: 1;
   background-color: #ff009c;
 }
+
+.lostark-pc .header-menu {
+  z-index: 11;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.lostark-pc .header-menu > div {
+  display: flex;
+  align-items: center;
+}
+
+.lostark-pc .header-menu > div > span {
+  display: block;
+  position: relative;
+}
+
+.lostark-pc .header-menu__login,
+.lostark-pc .header-menu__pcbang {
+  margin-left: 4.8px;
+}
+.lostark-pc .header-menu__gamestart {
+  margin-left: 48px;
+}
+
+.lostark-pc .header-menu > div > span a {
+  vertical-align: top;
+}
+
+.lostark-pc .button--header-login {
+  background: url(../images/icon/Login.png) no-repeat center;
+  text-align: center;
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+
+  padding: auto;
+  width: 70px;
+  height: 32px;
+  margin: 24px 0;
+}
+
+.lostark-pc .header-menu__pcbang {
+  background: url(../images/icon/pcRoom_off.png);
+  width: 71px;
+  height: 30px;
+  font-size: 0;
+}
+
+.lostark-pc .button--header-gamestart {
+  text-align: center;
+  font-size: 0;
+  display: inline-block;
+  position: relative;
+  opacity: 1;
+  content: "";
+  transition: opacity 0.2s;
+
+  background: url(../images/icon/GAME_START.png);
+  width: 268px;
+  height: 80px;
+}
